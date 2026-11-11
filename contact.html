@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>georgekuttybush | Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">GKB<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-banner">
+    <h1>Get in Touch</h1>
+    <p>Have questions about drops, sizing, or partnerships? Drop us a message.</p>
+  </section>
+
+  <!-- Contact Form & Details -->
+  <section class="container">
+    <div class="grid grid-2">
+      
+      <!-- Contact Form -->
+      <div class="card form-card">
+        <h2>Send an Enquiry</h2>
+        <div id="contactAlert" class="alert hidden"></div>
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter your full name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Sizing query, order status, etc.">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+        </form>
+      </div>
+
+      <!-- Info & Newsletter -->
+      <div>
+        <div class="card info-card">
+          <h3>Contact Details</h3>
+          <p><strong>Email:</strong> support@georgekuttybush.com</p>
+          <p><strong>HQ Address:</strong> Tech Hub Plaza, Indiranagar, Bengaluru, KA 560038</p>
+          <p><strong>Hours:</strong> Mon – Sat: 10:00 AM – 7:00 PM</p>
+        </div>
+
+        <div class="card newsletter-card" style="margin-top: 24px;">
+          <h3>Join the VIP Drop List</h3>
+          <p>Get instant notifications on upcoming drops & exclusive discounts.</p>
+          <div id="newsletterAlert" class="alert hidden"></div>
+          <form id="newsletterForm" class="newsletter-form" novalidate>
+            <input type="email" id="newsletterEmail" placeholder="Enter your email">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h3>georgekuttybush</h3>
+        <p>Urban culture & streetwear engineered for the modern generation.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Discord</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 georgekuttybush. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>georgekuttybush | Products</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">GKB<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-banner">
+    <h1>Catalog Collection</h1>
+    <p>Explore our lineup of apparel, accessories, and footwear designed for bold statements.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section class="container">
+    <!-- Category Filter Bar -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Items</button>
+      <button class="filter-btn" data-filter="Apparel">Apparel</button>
+      <button class="filter-btn" data-filter="Footwear">Footwear</button>
+      <button class="filter-btn" data-filter="Accessories">Accessories</button>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="grid grid-3">
+
+      <!-- Product 1 -->
+      <div class="card product-card" data-category="Apparel">
+        <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500&q=80" alt="Solar Neon Oversized Hoodie">
+        <div class="card-body">
+          <span class="tag">Apparel</span>
+          <h3>Solar Neon Oversized Hoodie</h3>
+          <p>Heavyweight 400 GSM cotton in electric orange with subtle navy embroidered branding.</p>
+          <div class="card-footer">
+            <span class="price">$65.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Solar Neon Oversized Hoodie" data-price="65.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="card product-card" data-category="Footwear">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80" alt="Cyber Runner Sneakers">
+        <div class="card-body">
+          <span class="tag">Footwear</span>
+          <h3>Cyber Runner Sneakers</h3>
+          <p>Ergonomic low-top sneakers featuring vibrant high-contrast orange soles and blue mesh.</p>
+          <div class="card-footer">
+            <span class="price">$110.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Cyber Runner Sneakers" data-price="110.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="card product-card" data-category="Accessories">
+        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80" alt="Midnight Utility Backpack">
+        <div class="card-body">
+          <span class="tag">Accessories</span>
+          <h3>Midnight Utility Backpack</h3>
+          <p>Water-resistant tactical backpack with dedicated laptop sleeve and quick-access clips.</p>
+          <div class="card-footer">
+            <span class="price">$85.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Midnight Utility Backpack" data-price="85.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="card product-card" data-category="Apparel">
+        <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&q=80" alt="Hyper-Blue Graphic Tee">
+        <div class="card-body">
+          <span class="tag">Apparel</span>
+          <h3>Hyper-Blue Graphic Tee</h3>
+          <p>100% organic relaxed-fit tee featuring original puff-print artwork on the front and back.</p>
+          <div class="card-footer">
+            <span class="price">$38.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Hyper-Blue Graphic Tee" data-price="38.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="card product-card" data-category="Accessories">
+        <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500&q=80" alt="Dual-Tone Snapback Cap">
+        <div class="card-body">
+          <span class="tag">Accessories</span>
+          <h3>Dual-Tone Snapback Cap</h3>
+          <p>Structured 6-panel cap featuring high-contrast orange brim and navy blue crown.</p>
+          <div class="card-footer">
+            <span class="price">$28.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Dual-Tone Snapback Cap" data-price="28.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="card product-card" data-category="Apparel">
+        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80" alt="Contrast Track Jacket">
+        <div class="card-body">
+          <span class="tag">Apparel</span>
+          <h3>Contrast Track Jacket</h3>
+          <p>Lightweight windbreaker featuring bold color-blocking, zip pockets, and elastic cuffs.</p>
+          <div class="card-footer">
+            <span class="price">$72.00</span>
+            <button class="btn btn-primary btn-sm view-details-btn" data-product="Contrast Track Jacket" data-price="72.00">View Details</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal Popup for Details -->
+  <div class="modal" id="productModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2 id="modalTitle">Product Name</h2>
+      <p id="modalPrice" class="modal-price">$0.00</p>
+      <p id="modalDesc">Detailed product specifications and sizing information.</p>
+      <button class="btn btn-primary" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h3>georgekuttybush</h3>
+        <p>Urban culture & streetwear engineered for the modern generation.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Discord</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 georgekuttybush. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
